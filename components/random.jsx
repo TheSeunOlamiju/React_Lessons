@@ -1,3 +1,5 @@
+// Where I try out the spontaneous exercises (Scrims)
+
 export default function RandomComponent(){
 
     let hours = new Date().getHours();
