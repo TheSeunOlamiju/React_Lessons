@@ -1,4 +1,4 @@
-/* @import "tailwindcss"; */
+@import "tailwindcss";
 
 * {
   box-sizing: border-box;
@@ -9,14 +9,13 @@ html, body {
 }
 
 body {
-  background-color: #27292c;
-  color: #fff;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+@theme {
+  --color-primary: #f55a5a;
+  --color-dark: #2b283a;
+  --color-muted: #918e9b;
+  --color-background: #f5f5f5;
 }
